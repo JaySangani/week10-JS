@@ -8,3 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{r loading libraries, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+
